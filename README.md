@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://isabellatressino.github.io/3-column-preview-card-component-main/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://isabellatressino.github.io/3-column-preview-card-component-main/](https://isabellatressino.github.io/3-column-preview-card-component-main/)
+- Live Site URL: [https://www.frontendmentor.io/solutions/3columnpreviewcardcomponentmain-using-flexbox-G2trdq_lW3](https://www.frontendmentor.io/solutions/3columnpreviewcardcomponentmain-using-flexbox-G2trdq_lW3)
 
 ## My process
 
