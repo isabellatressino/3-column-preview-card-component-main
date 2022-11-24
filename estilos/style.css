@@ -22,10 +22,15 @@
 
 body{
     background-color: var(--Very-light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main{
-    width: 250px;
+    width: 15.625rem;
     margin: 50px auto;
     display: flex;
     flex-flow: column nowrap;
@@ -34,8 +39,8 @@ main{
 }
 
 section{
-    height: 390px;
-    width: 250px;
+    height: 24.375rem;
+    width: 15.625rem;
     padding: 40px 30px;
 }
 
@@ -60,7 +65,7 @@ section a{
     padding: 10px 20px;
     border-radius: 30px;
     font-family: var(--Paragrafos);
-    font-size: 13px;
+    font-size: 0.813rem;
     margin-left: 10px;
     border: 2px solid var(--Very-light-gray);
 }
@@ -108,24 +113,25 @@ footer{
     padding: 10px;
     margin: auto;
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.688rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width: 768px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+    }
     main{
-        margin: 0px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
         display: flex;
         flex-flow: row nowrap;
-        width: 750px;
+        width: 46.875rem;
     }
     footer{
         position: fixed;
         bottom: 0;
-        left: 50%;
-        transform: translate(-50%,-50%);
     }
+   
 }
