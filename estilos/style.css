@@ -113,8 +113,15 @@ footer{
     padding: 10px;
     margin: auto;
 }
-.attribution { font-size: 0.688rem; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution { 
+    font-size: 0.688rem; text-align: center;
+}
+
+.attribution a { 
+    color: var(--Dark-cyan); 
+    text-decoration: none;
+}
 
 @media screen and (min-width: 768px){
     body{
@@ -132,6 +139,5 @@ footer{
     footer{
         position: fixed;
         bottom: 0;
-    }
-   
+    } 
 }
